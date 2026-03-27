@@ -139,7 +139,7 @@ Configuration is done entirely through the web part **property pane** — no env
 
 All map data is sourced from `src/webparts/map/data/map-data.json`. To update the map for a new project, replace this file with your own JSON that follows the same schema.
 
-### JSON schema
+### JSON schema example
 
 The file uses a flat, category-keyed structure. Each category is a top-level key containing an array of location objects. The minimal required fields for a mappable item are `id`, `name`, `lat`, and `lng`.
 
