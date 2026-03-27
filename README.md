@@ -141,7 +141,7 @@ All map data is sourced from `src/webparts/map/data/map-data.json`. To update th
 
 ### JSON schema example
 
-The file uses a flat, category-keyed structure. Each category is a top-level key containing an array of location objects. The minimal required fields for a mappable item are `id`, `name`, `lat`, and `lng`. In this case the json file is something like below but it would be vary based on your project requirements. 
+In this case the json file is something like below but it would be vary based on your project requirements. The example below shows a typical MapBox JASON file. 
 
 ```json
 {
@@ -183,9 +183,6 @@ The file uses a flat, category-keyed structure. Each category is a top-level key
   ]
 }
 ```
-
-> **Note:** `src/webparts/map/data/index.ts` replace your JSON the mentioned folder.
-
 ---
 
 ## 7. Deployment
