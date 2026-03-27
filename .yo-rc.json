@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.1",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "ynse-map-report",
+    "libraryId": "494f6a06-7519-4466-a358-69219cc546de",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "YNSE Map Report",
+    "solutionShortDescription": "YNSE Map Report description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

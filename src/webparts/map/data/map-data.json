@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "programme": "YNSE",
+    "version": "1.0"
+  },
+  "contracts": {
+    "SRS": {
+      "fullName": "Stations, Rail & Systems",
+      "description": "The SRS contract is the backbone of the YNSE programme, delivering five new subway stations, rail infrastructure, and all core systems integration. It spans the full alignment from Finch Station to the northern terminus at High Tech, covering tunnel-fit out, track installation, signalling, and station architecture.",
+      "scope": "Full alignment — Finch to High Tech",
+      "status": "Active",
+      "municipalities": ["Toronto", "Vaughan", "Richmond Hill", "Markham"],
+      "order": 0
+    },
+    "AT": {
+      "fullName": "Advance Tunnel",
+      "description": "The AT contract delivers the twin-bore TBM tunnels that form the underground right-of-way for the YNSE extension. Work includes launch and extraction shaft construction, tunnel boring, segment installation, and associated headwall structures at each emergency exit building location.",
+      "scope": "Steeles to Portal — tunnel boring",
+      "status": "Active",
+      "municipalities": ["Toronto", "Vaughan"],
+      "order": 1
+    },
+    "FEW": {
+      "fullName": "Finch Early Works",
+      "description": "The FEW contract covers enabling and preparatory works at the southern tie-in to the existing Finch Station. This includes siteworks, structural modifications, and mechanical/electrical fit-out of the tail track area to prepare for mainline construction.",
+      "scope": "Finch Station — southern tie-in",
+      "status": "Active",
+      "municipalities": ["Toronto"],
+      "order": 2
+    }
+  },
+  "eeb": [
+    { "id": "1.1", "name": "EEB 1", "contract": "SRS", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2028-09-01" },
+    { "id": "1.2", "name": "EEB 2", "contract": "SRS", "lat": 43.79158084, "lng": -79.41828399, "estimated_finished_date": "2029-01-01" },
+    { "id": "1.3", "name": "EEB 3", "contract": "SRS", "lat": 43.80099197, "lng": -79.42071622, "estimated_finished_date": "2029-06-01" },
+    { "id": "1.4", "name": "EEB 4", "contract": "SRS", "lat": 43.81410204, "lng": -79.42369135, "estimated_finished_date": "2029-12-01" },
+    { "id": "1.5", "name": "EEB 5", "contract": "SRS", "lat": 43.82620923, "lng": -79.42301581, "estimated_finished_date": "2030-06-01" },
+    { "id": "1.6", "name": "EEB 6", "contract": "SRS", "lat": 43.82844652, "lng": -79.41408927, "estimated_finished_date": "2030-09-01" }
+  ],
+  "cross_passages": [
+    { "id": "1.7", "name": "Cross Passages 1", "contract": "SRS", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2029-01-01" },
+    { "id": "1.8", "name": "Cross Passages 2", "contract": "SRS", "lat": 43.8011791, "lng": -79.420943, "estimated_finished_date": "2029-06-01" },
+    { "id": "1.9", "name": "Cross Passages 3", "contract": "SRS", "lat": 43.81410155, "lng": -79.42409854, "estimated_finished_date": "2029-12-01" },
+    { "id": "1.11", "name": "Cross Passages 4", "contract": "SRS", "lat": 43.81698629, "lng": -79.42494781, "estimated_finished_date": "2030-03-01" },
+    { "id": "1.12", "name": "Cross Passages 5", "contract": "SRS", "lat": 43.82363001, "lng": -79.42591445, "estimated_finished_date": "2030-06-01" },
+    { "id": "1.13", "name": "Cross Passages 6", "contract": "SRS", "lat": 43.82739795, "lng": -79.41810368, "estimated_finished_date": "2030-09-01" }
+  ],
+  "tpss": [
+    { "id": "1.15", "name": "TPSS 1", "contract": "SRS", "lat": 43.79158084, "lng": -79.41828399, "estimated_finished_date": "2029-09-01" },
+    { "id": "1.16", "name": "TPSS 2", "contract": "SRS", "lat": 43.79815585, "lng": -79.42030064, "estimated_finished_date": "2030-01-01" },
+    { "id": "1.17", "name": "TPSS 3", "contract": "SRS", "lat": 43.8072441, "lng": -79.42232195, "estimated_finished_date": "2030-06-01" },
+    { "id": "1.18", "name": "TPSS 4", "contract": "SRS", "lat": 43.82278147, "lng": -79.42594865, "estimated_finished_date": "2030-09-01" },
+    { "id": "1.19", "name": "TPSS 5", "contract": "SRS", "lat": 43.84158602, "lng": -79.42596127, "estimated_finished_date": "2031-03-01" },
+    { "id": "1.21", "name": "TPSS 6", "contract": "SRS", "lat": 43.8533302, "lng": -79.42871545, "estimated_finished_date": "2031-06-01" }
+  ],
+  "stations": [
+    {
+      "id": "2.1", "name": "High Tech Station", "contract": "SRS", "lat": 43.84158602, "lng": -79.42596127, "estimated_finished_date": "2030-09-01",
+      "catchment": "35,000 people", "jobs": "9,000+", "peakHour": "1,200 customers", "dailyBusTransfers": "1,200",
+      "connections": ["York Region Transit"],
+      "description": "The northern terminus, constructed at surface level beneath a bridge spanning High Tech Road. Will serve over half the residents anticipated in the Richmond Hill Centre urban growth centre by 2041."
+    },
+    {
+      "id": "2.2", "name": "Bridge Station", "contract": "SRS", "lat": 43.83727368, "lng": -79.4224271, "estimated_finished_date": "2030-03-01",
+      "catchment": "35,000 people", "jobs": "9,000+", "peakHour": "8,800 customers", "dailyBusTransfers": "36,900",
+      "connections": ["Richmond Hill GO", "GO Bus (Hwy 407)", "Viva BRT", "York Region Transit", "Future Hwy 407 Transitway"],
+      "description": "A surface-level station linking the two halves of the Richmond Hill Centre/Langstaff Gateway divided by highway infrastructure. Designed for simple and quick transfers without lengthy descents to underground platforms."
+    },
+    {
+      "id": "2.3", "name": "Royal Orchard Station", "contract": "SRS", "lat": 43.82278147, "lng": -79.42594865, "estimated_finished_date": "2029-09-01",
+      "catchment": "7,300 people", "jobs": "1,300", "peakHour": "1,100 customers", "dailyBusTransfers": "2,700",
+      "connections": ["York Region Transit"],
+      "description": "Serving the Royal Orchard area of Thornhill, a short walk from green spaces and trails along the East Don River valley."
+    },
+    {
+      "id": "2.4", "name": "Clark Station", "contract": "SRS", "lat": 43.8072441, "lng": -79.42232195, "estimated_finished_date": "2029-03-01",
+      "catchment": "8,100 people", "jobs": "1,900", "peakHour": "2,500 customers", "dailyBusTransfers": "8,700",
+      "connections": ["York Region Viva Orange", "York Region Transit"],
+      "description": "Situated in the Thornhill/Markham area near Morgan Avenue and Glen Cameron Road, serving the Promenade Centre community projected at 11,000+ residents and 6,000 jobs."
+    },
+    {
+      "id": "2.5", "name": "Steeles Station", "contract": "SRS", "lat": 43.79815585, "lng": -79.42030064, "estimated_finished_date": "2028-09-01",
+      "catchment": "8,600 people", "jobs": "3,400", "peakHour": "5,400 customers", "dailyBusTransfers": "29,700",
+      "connections": ["TTC Bus", "York Region Transit", "Future Steeles Rapid Transit"],
+      "description": "A future transit hub located along the boundary of the City of Toronto and York Region, featuring a major bus terminal connecting the subway to local bus routes serving both municipalities."
+    }
+  ],
+  "headwalls": [
+    { "id": "8.1", "name": "EEB 2 Headwall", "contract": "AT", "lat": 43.79158084, "lng": -79.41828399, "estimated_finished_date": "2026-03-01" },
+    { "id": "8.2", "name": "EEB 3 Headwall", "contract": "AT", "lat": 43.80099197, "lng": -79.42071622, "estimated_finished_date": "2026-09-01" },
+    { "id": "8.3", "name": "EEB 4 Headwall", "contract": "AT", "lat": 43.81410204, "lng": -79.42369135, "estimated_finished_date": "2027-06-01" },
+    { "id": "8.4", "name": "Steeles Station Headwall", "contract": "AT", "lat": 43.79815585, "lng": -79.42030064, "estimated_finished_date": "2026-06-01" },
+    { "id": "8.5", "name": "Clark Station Headwall", "contract": "AT", "lat": 43.8072441, "lng": -79.42232195, "estimated_finished_date": "2027-01-01" }
+  ],
+  "facilities": [
+    { "id": "4.1", "name": "Storage Buildings", "contract": "SRS", "lat": 43.8533302, "lng": -79.42871545, "estimated_finished_date": "2031-09-01" },
+    { "id": "4.2", "name": "Yard & Yard Tracks", "contract": "SRS", "lat": 43.8533302, "lng": -79.42871545, "estimated_finished_date": "2031-12-01" }
+  ],
+  "civil_works": [
+    { "id": "1.22", "name": "Finch Transition Structure", "contract": "SRS", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2027-06-01" },
+    { "id": "5.1", "name": "Portal", "contract": "SRS", "lat": 43.83545198, "lng": -79.42085308, "estimated_finished_date": "2028-03-01" },
+    { "id": "9.1", "name": "Extraction Shaft", "contract": "AT", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2025-06-01" },
+    { "id": "9.2", "name": "Launch Shaft", "contract": "AT", "lat": 43.83545198, "lng": -79.42085308, "estimated_finished_date": "2025-12-01" },
+    { "id": "11.1", "name": "Siteworks (Hendon Ave)", "contract": "FEW", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2024-06-15" },
+    { "id": "12.1", "name": "Mechanical (Tail Track)", "contract": "FEW", "lat": 43.7818501, "lng": -79.41599716, "estimated_finished_date": "2025-03-01" }
+  ],
+  "unmapped": [
+    { "id": "5.2", "name": "Subway Guideway", "contract": "SRS", "group": "Surface Civil Works", "estimated_finished_date": "2030-12-01" },
+    { "id": "6.1", "name": "Utilities", "contract": "SRS", "group": "Utilities", "estimated_finished_date": "2029-06-01" },
+    { "id": "7.1", "name": "System", "contract": "SRS", "group": "System", "estimated_finished_date": "2031-06-01" },
+    { "id": "9.3", "name": "Utilities", "contract": "AT", "group": "Surface Civil Works", "estimated_finished_date": "2026-06-01" },
+    { "id": "9.4", "name": "Track Ballasted", "contract": "AT", "group": "Surface Civil Works", "estimated_finished_date": "2027-09-01" },
+    { "id": "10.1", "name": "TBM Tunnel", "contract": "AT", "group": "Tunnel", "estimated_finished_date": "2028-06-01" },
+    { "id": "11.2", "name": "Structural (Hendon Ave)", "contract": "FEW", "group": "Hendon Ave", "estimated_finished_date": "2025-01-01" },
+    { "id": "12.2", "name": "Elec/Comms TCP (Tail Track)", "contract": "FEW", "group": "Tail Track", "estimated_finished_date": "2025-06-01" },
+    { "id": "12.3", "name": "Communications (Tail Track)", "contract": "FEW", "group": "Tail Track", "estimated_finished_date": "2025-09-01" }
+  ]
+}

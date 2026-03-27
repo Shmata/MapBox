@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ynse-map-report-client-side-solution",
+    "id": "494f6a06-7519-4466-a358-69219cc546de",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "YNSE Map Report description"
+      },
+      "longDescription": {
+        "default": "YNSE Map Report description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ynse-map-report Feature",
+        "description": "The feature that activates elements of the ynse-map-report solution.",
+        "id": "eb8ef153-2a06-45c0-b764-81dfa38092fb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ynse-map-report.sppkg"
+  }
+}
