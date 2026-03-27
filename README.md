@@ -141,7 +141,7 @@ All map data is sourced from `src/webparts/map/data/map-data.json`. To update th
 
 ### JSON schema example
 
-The file uses a flat, category-keyed structure. Each category is a top-level key containing an array of location objects. The minimal required fields for a mappable item are `id`, `name`, `lat`, and `lng`.
+The file uses a flat, category-keyed structure. Each category is a top-level key containing an array of location objects. The minimal required fields for a mappable item are `id`, `name`, `lat`, and `lng`. In this case the json file is something like below but it would be vary based on your project requirements. 
 
 ```json
 {
@@ -184,22 +184,7 @@ The file uses a flat, category-keyed structure. Each category is a top-level key
 }
 ```
 
-**Top-level categories in the default file:**
-
-| Key | Description |
-|---|---|
-| `metadata` | Programme name and schema version |
-| `contracts` | Contract definitions (code → full name, description, status, municipalities) |
-| `stations` | Subway/transit stations with ridership and connection data |
-| `eeb` | Emergency Exit Buildings |
-| `cross_passages` | Underground cross passages |
-| `tpss` | Traction Power Sub-Stations |
-| `headwalls` | Tunnel headwall structures |
-| `facilities` | Yards and storage facilities |
-| `civil_works` | Shafts, portals, and other civil work items |
-| `unmapped` | Work items that have no geographic coordinates (displayed in a list, not on the map) |
-
-> **Note:** `src/webparts/map/data/index.ts` re-exports the JSON and type definitions. Update or regenerate this file if you rename or add top-level categories.
+> **Note:** `src/webparts/map/data/index.ts` replace your JSON the mentioned folder.
 
 ---
 
