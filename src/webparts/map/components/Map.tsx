@@ -21,6 +21,7 @@ const Map: React.FC<IMapProps> = (props) => {
       return;
     }
 
+    // Map initialization logic
     initYnseMap({
       mapboxToken: checkNullEmptyOrUndefined(description) ? MAPBOX_TOKEN : description,
       mapData,
