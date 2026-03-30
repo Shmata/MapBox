@@ -109,6 +109,7 @@ export default class MapWebPart extends BaseClientSideWebPart<IMapWebPartProps> 
     return Version.parse('1.0');
   }
 
+  // Description is the access token for Mapbox, so we want to make sure it's not empty. If it is, we set it to the default value (which is a placeholder).
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
       pages: [
